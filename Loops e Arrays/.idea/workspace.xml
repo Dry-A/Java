@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb87b9c9-34ff-47e4-b7ba-7e84750f3b90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/.idea/Condicionais e Loops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/ifEBoolean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/For/fatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/For/linhaColuna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/For/one.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/For/tabuadas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/IfEBoolean/TestaMesSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/IfEBoolean/calculoIR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/While/one.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/out/production/ifEBoolean/While/two.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/For/fatorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/For/linhaColuna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/For/one.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/For/tabuadas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/IfEBoolean/TestaMesSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/IfEBoolean/calculoIR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/While/one.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Condicionais e Loops/ifEBoolean/src/While/two.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2L18k6srBn9dc0kitRXWCh9K1AC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Temp/ws-intellij/Java/Loops e Arrays",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb87b9c9-34ff-47e4-b7ba-7e84750f3b90" name="Changes" comment="" />
+      <created>1675027369344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675027369344</updated>
+      <workItem from="1675027370674" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
