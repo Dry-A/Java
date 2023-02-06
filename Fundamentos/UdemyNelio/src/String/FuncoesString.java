@@ -11,9 +11,9 @@ public class FuncoesString {
         String novo4 = original.substring(5);//do caracter 5 em diante
         String novo5 = original.substring(3,10); //do caracter 5 em diante
         String novo6 = original.replace('h','x'); //do caracter 5 em diante
-        String novo7 = original.replace("abc","audrey");
-        int novo8 = original.indexOf("bc") ;
-        int novo9 = original.lastIndexOf("bc");
+        String novo7 = original.replace("abc","batatinha");//substitui
+        int novo8 = original.indexOf("bc") ;//mostra o primeiro indice
+        int novo9 = original.lastIndexOf("bc");//mostra a ultima posição em que bc apareceu
 
         System.out.println("original = *"+original+"*");
         System.out.println("toLowerCase = *"+novo+"*");
