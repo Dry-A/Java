@@ -9,31 +9,42 @@ public class Fluxo {
 
         metodo1();
 
-        System.out.println("Agora volta pro do main");
+        System.out.println("Agora volta pro fim do main");
     }
 
 
     private static void metodo1() {
 
-        System.out.println("Inicio do metodo1");
+        System.out.println("Inicio do metodo 1");
 
         metodo2();
 
-        System.out.println("Agora vem para o fim do metodo1");
+        System.out.println("Agora vem para o fim do metodo 1");
     }
 
 
-    private static void metodo2() {
+    private static void metodo2(){
 
-        System.out.println("Inicio do metodo2");
+        System.out.println("início metodo 2");
+
+        metodo3();
+
+        System.out.println("Fim do método 2");
+
+    }
+
+
+    private static void metodo3() {
+
+        System.out.println("Inicio do metodo 3");
 
         for(int i = 1; i <= 3; i++) {
 
             System.out.println(i);
         }
 
-        System.out.println("Fim do metodo2");
+        System.out.println("Fim do metodo 3");
     }
-    
+
 
 }
