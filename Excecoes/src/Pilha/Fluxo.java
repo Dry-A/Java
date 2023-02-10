@@ -41,6 +41,13 @@ public class Fluxo {
         for(int i = 1; i <= 3; i++) {
 
             System.out.println(i);
+
+           try{ int a =1/0;
+           } catch (ArithmeticException ex){
+
+               System.out.println("ArithmeticException ");
+           }
+
         }
 
         System.out.println("Fim do metodo 3");
