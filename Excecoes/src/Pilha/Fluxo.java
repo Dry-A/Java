@@ -9,18 +9,18 @@ public class Fluxo {
         try {
             metodo1();
 
-        } catch (ArithmeticException ex){//nome da classe, é uma classe , e ex é uma referencia a um objeto e com ela podemos chamar metodos da classe
+        } catch (ArithmeticException | NullPointerException  ex){//nome da classe, é uma classe , e ex é uma referencia a um objeto e com ela podemos chamar metodos da classe
 
-            //String msg = ex.getMessage(); //pego a mensagem e guardo dentro da variavel msg, que é do tipo String
+            String msg = ex.getMessage(); //pego a mensagem e guardo dentro da variavel msg, que é do tipo String
 
-            //System.out.println("ArithmeticException "+ msg);
+            System.out.println("Exception "+ msg);
 
             //me mostra seu rastro? Por onde vc passou? Sim:
 
             ex.printStackTrace(); //rastro
 
-
         }
+
 
         System.out.println("Agora volta pro fim do main");
     }
@@ -56,6 +56,8 @@ public class Fluxo {
             System.out.println(i);
 
            int a =1/0;
+           // Conta c = null;
+           //c.deposita();
 
         }
 
