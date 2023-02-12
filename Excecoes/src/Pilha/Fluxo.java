@@ -6,8 +6,21 @@ public class Fluxo {
 
 
         System.out.println("Inicio do main");
+        try {
+            metodo1();
 
-        metodo1();
+        } catch (ArithmeticException ex){//nome da classe, é uma classe , e ex é uma referencia a um objeto e com ela podemos chamar metodos da classe
+
+            //String msg = ex.getMessage(); //pego a mensagem e guardo dentro da variavel msg, que é do tipo String
+
+            //System.out.println("ArithmeticException "+ msg);
+
+            //me mostra seu rastro? Por onde vc passou? Sim:
+
+            ex.printStackTrace(); //rastro
+
+
+        }
 
         System.out.println("Agora volta pro fim do main");
     }
@@ -27,7 +40,7 @@ public class Fluxo {
 
         System.out.println("início metodo 2");
 
-        metodo3();
+            metodo3();
 
         System.out.println("Fim do método 2");
 
@@ -42,11 +55,7 @@ public class Fluxo {
 
             System.out.println(i);
 
-           try{ int a =1/0;
-           } catch (ArithmeticException ex){
-
-               System.out.println("ArithmeticException ");
-           }
+           int a =1/0;
 
         }
 
