@@ -43,6 +43,11 @@ public class TestException2 {
         } catch (Exception rsrsrs) {
 
             System.out.println("Erro na execução do programa! ");
+
+        }finally {
+            //sempre sera executado, com exceção ou nao
+            System.out.println("Oi, sempre passará aqui");
+
         }
 
 
