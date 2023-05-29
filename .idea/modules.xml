@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/POO/Alura/src/Alura.iml" filepath="$PROJECT_DIR$/POO/Alura/src/Alura.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Collections/Alura/Alura1.iml" filepath="$PROJECT_DIR$/Collections/Alura/Alura1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POO/Alura/Alura2.iml" filepath="$PROJECT_DIR$/POO/Alura/Alura2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Condicionais/Condicionais.iml" filepath="$PROJECT_DIR$/Condicionais/Condicionais.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Collections/Dio/Dio.iml" filepath="$PROJECT_DIR$/Collections/Dio/Dio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POO/EbacHelloWorld/EbacHelloWorld.iml" filepath="$PROJECT_DIR$/POO/EbacHelloWorld/EbacHelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Excecoes/Excecoes.iml" filepath="$PROJECT_DIR$/Excecoes/Excecoes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POO/Fiap/Fiap.iml" filepath="$PROJECT_DIR$/POO/Fiap/Fiap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Loops e Arrays/Fiap/Fiap1.iml" filepath="$PROJECT_DIR$/Loops e Arrays/Fiap/Fiap1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Fundamentos/Fundamentos.iml" filepath="$PROJECT_DIR$/Fundamentos/Fundamentos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POO/Orange Tech/Orange Tech.iml" filepath="$PROJECT_DIR$/POO/Orange Tech/Orange Tech.iml" />
-      <module fileurl="file://$PROJECT_DIR$/POO/StartCap/StartCap.iml" filepath="$PROJECT_DIR$/POO/StartCap/StartCap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Loops e Arrays/lacos_e_arrays/lacos_e_arrays.iml" filepath="$PROJECT_DIR$/Loops e Arrays/lacos_e_arrays/lacos_e_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCurso.iml" filepath="$PROJECT_DIR$/JavaCurso.iml" />
     </modules>
   </component>
 </project>
