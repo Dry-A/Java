@@ -12,6 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,22 +43,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaiorEMedia">
+  <component name="RunManager" selected="Application.TestaArrays">
     <configuration name="Doces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentos.Doces" />
-      <module name="JavaCurso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fundamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Main" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vetorEArray.TestaArrays" />
+      <module name="JavaCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vetorEArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaArrays" />
         <item itemvalue="Application.MaiorEMedia" />
         <item itemvalue="Application.SwitchCase3" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.Doces" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685357805069</updated>
       <workItem from="1685357808288" duration="3235000" />
-      <workItem from="1685361446195" duration="2379000" />
+      <workItem from="1685361446195" duration="4305000" />
     </task>
     <servers />
   </component>
