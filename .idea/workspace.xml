@@ -43,13 +43,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestaArrays">
-    <configuration name="Doces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fundamentos.Doces" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="vetorEArray" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteReferencias">
+    <configuration name="FluxoComTratamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pilha.FluxoComTratamento" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fundamentos.*" />
+          <option name="PATTERN" value="pilha.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaiorEMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lacos.MaiorEMedia" />
+    <configuration name="TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.Aleatorios.TesteContas" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lacos.*" />
+          <option name="PATTERN" value="poo.Aleatorios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionais.SwitchCase" />
+    <configuration name="TesteReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.bytebankHerdado.TesteReferencias" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionais.*" />
+          <option name="PATTERN" value="poo.bytebankHerdado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionais.SwitchCase3" />
+    <configuration name="TesteSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.bytebankHerdado.TesteSistema" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionais.*" />
+          <option name="PATTERN" value="poo.bytebankHerdado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vetorEArray.TestaArrays" />
+    <configuration name="poo.bytebankHerdadoConta.TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.bytebankHerdadoConta.TesteContas" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vetorEArray.*" />
+          <option name="PATTERN" value="poo.bytebankHerdadoConta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestaArrays" />
-        <item itemvalue="Application.MaiorEMedia" />
-        <item itemvalue="Application.SwitchCase3" />
-        <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.Doces" />
+        <item itemvalue="Application.TesteReferencias" />
+        <item itemvalue="Application.TesteSistema" />
+        <item itemvalue="Application.poo.bytebankHerdadoConta.TesteContas" />
+        <item itemvalue="Application.TesteContas" />
+        <item itemvalue="Application.FluxoComTratamento" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685357805069</updated>
       <workItem from="1685357808288" duration="3235000" />
-      <workItem from="1685361446195" duration="4305000" />
+      <workItem from="1685361446195" duration="6226000" />
     </task>
     <servers />
   </component>
