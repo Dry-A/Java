@@ -16,9 +16,7 @@ public class Curso {
     }
 
     public List<Aula> getAulas(){
-
         //adicionando metodo APENAS LEITURA:
-
         return Collections.unmodifiableList(aulas);
     }
 
@@ -34,6 +32,5 @@ public class Curso {
 
         this.aulas.add(aula);
     }
-
 
 }

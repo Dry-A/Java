@@ -8,7 +8,7 @@ public class TestaCurso {
         Curso bananinhaColecoes = new Curso("Dominando as Coleções Java", "Paulo Silveira");
 
         List<Aula> aulas = bananinhaColecoes.getAulas();
-        
+
         System.out.println(aulas);
 
         /*aulas.add(new Aula("Trabalhando com ArrayList", 18));
@@ -23,7 +23,7 @@ public class TestaCurso {
         //ou
         System.out.println(aulas);*/
 
-        //usando o unmodifield:
+        //usando o Collections.unmodifiableList:
 
         bananinhaColecoes.adiciona(new Aula("Trabalhando com ArrayList",14));
         System.out.println(bananinhaColecoes.getAulas());
