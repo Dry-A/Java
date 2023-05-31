@@ -25,6 +25,8 @@ public class TestaAula {
 
         System.out.println(aulas);
 
+        //para remover um item pelo indice:
+
         aulas.remove(0);
 
         System.out.println(aulas);
@@ -42,22 +44,33 @@ public class TestaAula {
             System.out.println("percorrendo: " + aula);
         }); //para cada aula em aulas, faça:
 
-
-        String primeiraAula = aulas.get(0);
-        System.out.println("A primeira aula é " + primeiraAula);
-
         for (int i = 0; i < aulas.size(); i++) {
 
             System.out.println("aula -> " + aulas.get(i));
         }
 
-        System.out.println("Total de elementos na lista: " + aulas.size());
+        //mas se eu deixar como está abaixo(<=), vai dar um erro:
+
+        /*for (int i = 0; i <= aulas.size(); i++) {
+            System.out.println("Aula : " + aulas.get(i));
+
+            System.out.println("Total de elementos na lista: " + aulas.size());
+        }*/
 
         //ordenando
 
         aulas.add("Como vender os docinhos");
         Collections.sort(aulas);
         System.out.println(aulas);
+
+        //para saber o nome da primeira aula
+
+        String primeiraAula = aulas.get(0);
+        System.out.println("A primeira aula é " + primeiraAula);
+
+        //ou
+
+        System.out.println("A primeira aula da lista é: " + aulas.get(0));
 
     }
 }
