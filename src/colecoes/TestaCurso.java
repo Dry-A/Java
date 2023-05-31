@@ -8,9 +8,10 @@ public class TestaCurso {
         Curso bananinhaColecoes = new Curso("Dominando as Coleções Java", "Paulo Silveira");
 
         List<Aula> aulas = bananinhaColecoes.getAulas();
+        
         System.out.println(aulas);
 
-        aulas.add(new Aula("Trabalhando com ArrayList", 18));
+        /*aulas.add(new Aula("Trabalhando com ArrayList", 18));
         //ou
         bananinhaColecoes.getAulas().add(new Aula("Trabalhando com LinkedList", 22));
 
@@ -20,6 +21,11 @@ public class TestaCurso {
         System.out.println(bananinhaColecoes.getAulas());
 
         //ou
-        System.out.println(aulas);
+        System.out.println(aulas);*/
+
+        //usando o unmodifield:
+
+        bananinhaColecoes.adiciona(new Aula("Trabalhando com ArrayList",14));
+        System.out.println(bananinhaColecoes.getAulas());
     }
 }
