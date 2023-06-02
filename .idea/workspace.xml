@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d8ff5d5-425f-4476-8b91-a5dead9dacf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/TestaCursoComAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colecoes/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/colecoes/TestaAlunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colecoes/TestaAlunos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,22 +52,9 @@
       <recent name="vetorEArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaAlunos">
+  <component name="RunManager" selected="Application.TestaCursoComAluno">
     <configuration name="TestaAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.TestaAlunos" />
-      <module name="JavaCurso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="colecoes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaAula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoes.TestaAula" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaCursoComAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.TestaCursoComAluno" />
+      <module name="JavaCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaListaAula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.TestaListaAula" />
       <module name="JavaCurso" />
@@ -116,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaCursoComAluno" />
         <item itemvalue="Application.TestaAlunos" />
         <item itemvalue="Application.TestaCurso2" />
         <item itemvalue="Application.TestaCurso" />
         <item itemvalue="Application.TestaListaAula" />
-        <item itemvalue="Application.TestaAula" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +142,7 @@
       <workItem from="1685408839565" duration="1500000" />
       <workItem from="1685528989624" duration="7434000" />
       <workItem from="1685704715790" duration="2356000" />
-      <workItem from="1685739796713" duration="6205000" />
+      <workItem from="1685739796713" duration="7551000" />
     </task>
     <servers />
   </component>
