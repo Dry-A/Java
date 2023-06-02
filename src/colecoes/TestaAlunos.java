@@ -20,14 +20,14 @@ public class TestaAlunos {
 
         System.out.println("******** for each ***********");
 
-        for (String aluno: alunos
-             ) {
+        for (String aluno : alunos
+        ) {
             System.out.println(aluno);
 
         }
 
         System.out.println("********************** Lambda ****************");
-        alunos.forEach(aluno ->{
+        alunos.forEach(aluno -> {
             System.out.println(aluno);
         });
 
@@ -81,25 +81,14 @@ public class TestaAlunos {
 
         int quantiddCarros = meusCarros.size();
 
-        System.out.printf("Eu tenho %d carros. ",quantiddCarros);
+        System.out.printf("Eu tenho %d carros. ", quantiddCarros);
 
-        System.out.println("\n"+meusCarros.get(2));
+        System.out.println("\n" + meusCarros.get(2));
 
         System.out.println(meusCarros.size());
         meusCarros.remove(0);
 
         System.out.println(meusCarros);
-
-
-
-
-
-
-
-
-
-
-
-
+        
     }
 }
