@@ -26,6 +26,11 @@ public class TestaCurso {
         //usando o Collections.unmodifiableList:
 
         bananinhaColecoes.adiciona(new Aula("Trabalhando com ArrayList",14));
+        bananinhaColecoes.adiciona(new Aula("Modelando com coleções",25));
+        bananinhaColecoes.adiciona(new Aula("Trabalhando com Map",19));
+
+
+
         System.out.println(bananinhaColecoes.getAulas());
     }
 }
