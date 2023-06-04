@@ -1,5 +1,8 @@
 package colecoes;
 
+import java.util.Collections;
+import java.util.Set;
+
 public class TestaCursoComAluno {
 
     public static void main(String[] args) {
@@ -11,7 +14,7 @@ public class TestaCursoComAluno {
         colecoesCursos.adiciona(new Aula("Entendendo Set", 21));
 
 
-        Aluno a1 = new Aluno("isabela Venturini", 52366);
+        Aluno a1 = new Aluno("Isabela Venturini", 52366);
         Aluno a2 = new Aluno("Cesar Oliveira", 45225);
         Aluno a3 = new Aluno("Pedro Moretti", 23665);
 
@@ -25,6 +28,20 @@ public class TestaCursoComAluno {
         colecoesCursos.getAlunos().forEach(aluno -> {
             System.out.println(aluno);
         });
+
+        System.out.println("O aluno "+a1 + " está matriculado?");
+
+        System.out.println(colecoesCursos.estaMatriculado(a1));
+
+        Aluno isabela = new Aluno("Isabela Venturini", 8588);
+
+        System.out.println("e essa Venturini? Está matriculado?");
+
+        System.out.println(colecoesCursos.estaMatriculado(isabela));
+        //por que deu falso? o Set tem uma tabela de espalhamento
+
+        System.out.println("O a1 é equals a Isabela?");
+        System.out.println(a1.equals(isabela)); //a1 é igual a macedo?
 
 
     }
