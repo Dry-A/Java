@@ -7,7 +7,7 @@ public class Curso {
     private String nome;
     private String instrutor;
     private List<Aula> aulas = new LinkedList<Aula>();
-    private Set<Aluno> alunos = new HashSet<>(); //poderia ser collection em vez de Set
+    private Set<Aluno> alunos = new LinkedHashSet<>(); //poderia ser collection em vez de Set
 
     public Curso(String nome, String instrutor) {
         this.nome = nome;

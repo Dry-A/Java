@@ -1,6 +1,7 @@
 package colecoes;
 
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.Set;
 
 public class TestaCursoComAluno {
@@ -23,26 +24,40 @@ public class TestaCursoComAluno {
         colecoesCursos.matricula(a2);
         colecoesCursos.matricula(a3);
 
-        System.out.println("Alunos matriculados no curso :");
+        System.out.println("Alunos matriculados no curso :   COM ITERATOR");
+
+        Set<Aluno> alunos = colecoesCursos.getAlunos();
+        Iterator<Aluno> iterador = alunos.iterator();
+
+        while (iterador.hasNext()) {
+
+            Aluno proximo = iterador.next();
+            System.out.println(proximo);
+        }
+
+        System.out.println("  ");
+        System.out.println("********** com forEach ***********");
 
         colecoesCursos.getAlunos().forEach(aluno -> {
             System.out.println(aluno);
         });
 
-        System.out.println("O aluno "+a1 + " está matriculado?");
+        System.out.println("  ");
+        System.out.println(" Com boolean ");
+
+        System.out.println("O aluno " + a1 + " está matriculado?");
 
         System.out.println(colecoesCursos.estaMatriculado(a1));
 
         Aluno isabela = new Aluno("Isabela Venturini", 8588);
 
-        System.out.println("e essa Venturini? Está matriculado?");
+        System.out.println("e esta Venturini? Está matriculada?");
 
         System.out.println(colecoesCursos.estaMatriculado(isabela));
         //por que deu falso? o Set tem uma tabela de espalhamento
 
         System.out.println("O a1 é equals a Isabela?");
         System.out.println(a1.equals(isabela)); //a1 é igual a macedo?
-
 
     }
 }
