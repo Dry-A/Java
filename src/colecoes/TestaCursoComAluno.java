@@ -56,6 +56,6 @@ public class TestaCursoComAluno {
 
         System.out.println("O a1 é equals a Isabela?");
         System.out.println(a1.equals(isabela)); //a1 é igual a macedo?
-        
+
     }
 }

@@ -43,12 +43,12 @@ public class Curso {
         //ou
         return this.aulas.stream().mapToInt(Aula::getTempo).sum();
 
-       // return tempoTotal;
+        // return tempoTotal;
     }
 
     @Override
     public String toString() {
-        return "[Curso: "+ nome + "tempo total "+ this.getTempoTotal()+ " minutos. Aulas:" + this.aulas ;
+        return "[Curso: " + nome + "tempo total " + this.getTempoTotal() + " minutos. Aulas:" + this.aulas;
     }
 
     public void matricula(Aluno aluno) {
@@ -63,4 +63,14 @@ public class Curso {
     public boolean estaMatriculado(Aluno aluno) {
         return this.alunos.contains(aluno);
     }
+
+    public Aluno buscaMatriculado(int numero) {
+
+        for (Aluno aluno : alunos) {
+            if (aluno.getNumeroMatricula() == numero)
+                return aluno;
+        }
+        throw new NoSuchElementException("Matrícula não encontrada " + numero);
+    }
 }
+

@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d8ff5d5-425f-4476-8b91-a5dead9dacf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/colecoes/TestaBuscaAlunosCurso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colecoes/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/colecoes/TestaCursoComAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colecoes/TestaCursoComAluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,7 @@
       <recent name="vetorEArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaCursoComAluno">
+  <component name="RunManager" selected="Application.TestaBuscaAlunosCurso">
     <configuration name="TestaAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.TestaAlunos" />
       <module name="JavaCurso" />
@@ -62,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoes.TestaCurso" />
+    <configuration name="TestaBuscaAlunosCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.TestaBuscaAlunosCurso" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaBuscaAlunosCurso" />
         <item itemvalue="Application.TestaCursoComAluno" />
         <item itemvalue="Application.TesteEmptySet" />
         <item itemvalue="Application.TestaAlunos" />
         <item itemvalue="Application.TestaCurso2" />
-        <item itemvalue="Application.TestaCurso" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +142,7 @@
       <workItem from="1685528989624" duration="7434000" />
       <workItem from="1685704715790" duration="2356000" />
       <workItem from="1685739796713" duration="13285000" />
-      <workItem from="1685888170961" duration="2775000" />
+      <workItem from="1685888170961" duration="4157000" />
     </task>
     <servers />
   </component>
