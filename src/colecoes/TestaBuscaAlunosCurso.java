@@ -1,5 +1,8 @@
 package colecoes;
 
+import java.util.Map;
+import java.util.Set;
+
 public class TestaBuscaAlunosCurso {
 
     public static void main(String[] args) {
@@ -24,6 +27,11 @@ public class TestaBuscaAlunosCurso {
         System.out.println("quem é o aluno com a matricula 45225");
 
         Aluno aluno = colecoesCursos.buscaMatriculado(45225);
+
+        //Aluno aluno = colecoesCursos.buscaMatriculado(52236);
         System.out.println("Aluno : " + aluno);
+
+        //Um mapa que mapeia uma chave de matricula , não só para um aluno, mas para um SET(Conjunto) de alunos
+        Map<Integer, Set<Aluno>> variavelMatriculaParaAlunos;
     }
 }
