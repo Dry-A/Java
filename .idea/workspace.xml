@@ -53,22 +53,9 @@
       <recent name="vetorEArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaListagem">
+  <component name="RunManager" selected="Application.TestaRemocao">
     <configuration name="ExercicioMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.ExercicioMap" />
-      <module name="JavaCurso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="colecoes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaBuscaAlunosCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoes.TestaBuscaAlunosCurso" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaRemocao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.lojavirtual.TestaRemocao" />
+      <module name="JavaCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.lojavirtual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaRemocao" />
         <item itemvalue="Application.TestaListagem" />
         <item itemvalue="Application.TestaInsercao" />
         <item itemvalue="Application.TestaConexao" />
         <item itemvalue="Application.ExercicioMap" />
-        <item itemvalue="Application.TestaBuscaAlunosCurso" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +145,7 @@
       <workItem from="1685704715790" duration="2356000" />
       <workItem from="1685739796713" duration="13285000" />
       <workItem from="1685888170961" duration="8361000" />
-      <workItem from="1686398132693" duration="7702000" />
+      <workItem from="1686398132693" duration="8855000" />
     </task>
     <servers />
   </component>
