@@ -4,15 +4,15 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class TestaConexao {
-    public static void main(String[] args) throws SQLException {
 
-        ConnectionFactory criaConexao = new ConnectionFactory();
-        Connection con = criaConexao.recuperarConexao();
+	public static void main(String[] args) throws SQLException {
 
-        System.out.println("Fechando minha conexão");
+		ConnectionFactory connectionFactory = new ConnectionFactory();
+		Connection connection = connectionFactory.recuperarConexao();
 
-        con.close();
+		System.out.println("Fechando conex�o!!");
 
+		connection.close();
+	}
 
-    }
 }

@@ -1,34 +1,30 @@
 package jdbc.lojavirtual;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class TestaListagem {
-    public static void main(String[] args) throws SQLException {
 
-        ConnectionFactory criaConexao = new ConnectionFactory();
-        Connection con = criaConexao.recuperarConexao();
+	public static void main(String[] args) throws SQLException {
 
-        PreparedStatement stm = con.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
-        stm.execute();
+		ConnectionFactory connectionFactory = new ConnectionFactory();
+		Connection connection = connectionFactory.recuperarConexao();
 
-        ResultSet resultado = stm.getResultSet();
-
-        while (resultado.next()) {
-
-            Integer id = resultado.getInt("ID");
-            String nome = resultado.getString("NOME");
-            String descricao = resultado.getString("DESCRICAO");
-
-            System.out.println(id);
-            System.out.println(nome);
-            System.out.println(descricao);
-
-        }
-
-        System.out.println("Fechando minha conexão");
-
-        con.close();
-
-    }
-
+		PreparedStatement stm = connection.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+		stm.execute();
+		ResultSet rst = stm.getResultSet();
+		while(rst.next()) {
+			Integer id = rst.getInt("ID");
+			String nome = rst.getString("NOME");
+			String descricao = rst.getString("DESCRICAO");
+			System.out.println(id);
+			System.out.println(nome);
+			System.out.println(descricao);
+		}
+		rst.close();
+		stm.close();
+		connection.close();
+	}
 }
