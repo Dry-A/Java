@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d8ff5d5-425f-4476-8b91-a5dead9dacf4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaConexao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <recent name="vetorEArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaConexao">
+  <component name="RunManager" selected="Application.TestaListagem">
     <configuration name="ExercicioMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.ExercicioMap" />
       <module name="JavaCurso" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteEmptySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colecoes.TesteEmptySet" />
+    <configuration name="TestaListagem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.lojavirtual.TestaListagem" />
       <module name="JavaCurso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colecoes.*" />
+          <option name="PATTERN" value="jdbc.lojavirtual.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaListagem" />
         <item itemvalue="Application.TestaConexao" />
         <item itemvalue="Application.ExercicioMap" />
         <item itemvalue="Application.TestaBuscaAlunosCurso" />
         <item itemvalue="Application.TestaCursoComAluno" />
-        <item itemvalue="Application.TesteEmptySet" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +147,7 @@
       <workItem from="1685704715790" duration="2356000" />
       <workItem from="1685739796713" duration="13285000" />
       <workItem from="1685888170961" duration="8361000" />
-      <workItem from="1686398132693" duration="2439000" />
+      <workItem from="1686398132693" duration="5650000" />
     </task>
     <servers />
   </component>
