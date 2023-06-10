@@ -1,11 +1,8 @@
 package jdbc.lojavirtual;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
-public class TestaInsercaoComparando {
+public class TestaInsercaoComParametro {
     public static void main(String[] args) throws SQLException {
 
         String nome = "Mouse";
@@ -14,9 +11,13 @@ public class TestaInsercaoComparando {
         ConnectionFactory minhaFabrica = new ConnectionFactory();
         Connection conexao = minhaFabrica.recuperarConexao();
 
-        Statement stm = conexao.createStatement();
-        stm.execute("INSERT INTO PRODUTO (nome, descricao) VALUES ('"+ nome +"','"+ descricao+"') "
-                , Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement stm = conexao.prepareStatement( "INSERT INTO PRODUTO (nome, descricao) VALUES (?, ?)"
+                ,Statement.RETURN_GENERATED_KEYS);
+
+        stm.setString(1,nome);
+        stm.setString(2, descricao);
+
+        stm.execute( );
 
         ResultSet resultado = stm.getGeneratedKeys();
         while (resultado.next()) {
