@@ -8,18 +8,19 @@ public class TestaListagem {
         ConnectionFactory criaConexao = new ConnectionFactory();
         Connection con = criaConexao.recuperarConexao();
 
-        Statement stm = con.createStatement();
-        stm.execute("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+        PreparedStatement stm = con.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+        stm.execute();
 
         ResultSet resultado = stm.getResultSet();
 
         while (resultado.next()) {
 
             Integer id = resultado.getInt("ID");
-            System.out.println(id);
             String nome = resultado.getString("NOME");
-            System.out.println(nome);
             String descricao = resultado.getString("DESCRICAO");
+
+            System.out.println(id);
+            System.out.println(nome);
             System.out.println(descricao);
 
         }
