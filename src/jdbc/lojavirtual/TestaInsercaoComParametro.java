@@ -28,7 +28,6 @@ public class TestaInsercaoComParametro {
             }
         }
     }
-
     private static void adicionarVariavel(String nome, String descricao, PreparedStatement stm) throws SQLException {
         stm.setString(1, nome);
         stm.setString(2, descricao);

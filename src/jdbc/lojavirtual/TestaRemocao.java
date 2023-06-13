@@ -20,6 +20,8 @@ public class TestaRemocao {
 		System.out.println("Quantidade de linhas que foram modificadas: " + linhasModificadas);
 		stm.close();
 		connection.close();
+
+		>=
 	}
 
 }
