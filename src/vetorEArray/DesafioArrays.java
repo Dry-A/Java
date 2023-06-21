@@ -1,3 +1,5 @@
+package vetorEArray;
+
 import java.util.Scanner;
 
 public class DesafioArrays {
