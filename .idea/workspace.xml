@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d8ff5d5-425f-4476-8b91-a5dead9dacf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCurso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCurso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaListagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaListagem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaRemocao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaRemocao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaRemocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaRemocao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/Documents/Temp/Dev-Dojo",
+    "last_opened_file_path": "C:/Users/Administrator/Documents/Temp/ws-intellij/JavaCurso",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,7 +45,7 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -163,6 +158,7 @@
       <workItem from="1687012105310" duration="2085000" />
       <workItem from="1687026115561" duration="1138000" />
       <workItem from="1687116491697" duration="1754000" />
+      <workItem from="1687379499464" duration="3102000" />
     </task>
     <servers />
   </component>
