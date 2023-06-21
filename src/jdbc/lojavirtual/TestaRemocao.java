@@ -21,7 +21,7 @@ public class TestaRemocao {
 		stm.close();
 		connection.close();
 
-		>=
+
 	}
 
 }

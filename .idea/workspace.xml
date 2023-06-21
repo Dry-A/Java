@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d8ff5d5-425f-4476-8b91-a5dead9dacf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaAlunos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaAlunos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaAula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaAula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaBuscaAlunosCurso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaBuscaAlunosCurso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCurso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCurso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCurso2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCurso2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCursoComAluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/colecoes/TestaCursoComAluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/IfElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/IfElse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/condicionais/SwitchCase3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaConexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaConexao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaInsercaoComParametro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaInsercaoComParametro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/lacos/Fatorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/lacos/Fatorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/lacos/MaiorEMedia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/lacos/MaiorEMedia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/lacos/parImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/lacos/parImpar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankEncapsulamento/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankEncapsulamento/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankEncapsulamento/TesteContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankEncapsulamento/TesteContas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/Designer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/EditorVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/EditorVideo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/Gerente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/SistemaInterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/poo/bytebankHerdado/SistemaInterno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/string/Split.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/string/Split.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/string/UsandoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/string/UsandoStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/ArrayBusca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/ArrayBusca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/Guanabara1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/Guanabara1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/Guanabara2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/Guanabara2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/MediaAltura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/MediaAltura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/MetodosStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/MetodosStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/vetorEArray/nota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaInsercaoComParametro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaInsercaoComParametro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaListagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaListagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCurso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCurso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaListagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaListagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaRemocao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCurso/jdbc/lojavirtual/TestaRemocao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaRemocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/lojavirtual/TestaRemocao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,15 +41,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/Documents/Temp/ws-intellij/JavaCurso",
+    "last_opened_file_path": "C:/Users/Administrator/Documents/Temp/Dev-Dojo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,20 +59,7 @@
       <recent name="vetorEArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaInsercaoComParametro">
-    <configuration name="TestaConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.lojavirtual.TestaConexao" />
-      <module name="JavaCurso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.lojavirtual.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Treino2">
     <configuration name="TestaInsercao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.lojavirtual.TestaInsercao" />
       <module name="JavaCurso" />
@@ -152,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Treino2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lacos.Treino2" />
+      <module name="JavaCurso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Treino2" />
         <item itemvalue="Application.TestaRemocao" />
         <item itemvalue="Application.TestaListagem" />
         <item itemvalue="Application.TestaInsercao" />
         <item itemvalue="Application.TestaInsercaoComParametro" />
-        <item itemvalue="Application.TestaConexao" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +157,12 @@
       <workItem from="1686694791656" duration="363000" />
       <workItem from="1686695261654" duration="268000" />
       <workItem from="1686695571163" duration="388000" />
-      <workItem from="1686696546747" duration="550000" />
+      <workItem from="1686696546747" duration="849000" />
+      <workItem from="1686823922431" duration="2231000" />
+      <workItem from="1686862312135" duration="2551000" />
+      <workItem from="1687012105310" duration="2085000" />
+      <workItem from="1687026115561" duration="1138000" />
+      <workItem from="1687116491697" duration="1754000" />
     </task>
     <servers />
   </component>
