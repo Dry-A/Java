@@ -1,4 +1,5 @@
 package fundamentos;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,11 +12,10 @@ public class Main {
 
         i++;
 
-        int r = i + j%2;
+        int r = i + j % 2;
 
         r *= j;
 
         System.out.println(r);
-
     }
 }
