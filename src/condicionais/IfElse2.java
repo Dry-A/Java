@@ -18,9 +18,8 @@ public class IfElse2 {
 
         if (idade >= 18) {
 
-            if (renda >= 100000) {
-                System.out.println("Trocar de segmento para Prime");
-            } else if (renda >= 3000) {
+            if (renda >= 100000) System.out.println("Trocar de segmento para Prime");
+            else if (renda >= 3000) {
 
                 System.out.println("Aprovado");
                 if (renda >= 6000) {
