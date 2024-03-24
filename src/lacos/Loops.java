@@ -24,5 +24,12 @@ public class Loops {
 
             System.out.println("O produto numero " + i + " foi registrado");
         }
+
+        int filhos = 4;
+        int vacinados = 0;
+
+        for(int i = 0; i<filhos; i++){
+            System.out.println( "Filho "+ i + " foi vacinado");
+        }
     }
 }
